@@ -924,6 +924,10 @@ label{
     outline: 2px solid #D4AF37;
     border: none;
 }
+#contact-form input:focus::placeholder,  
+#contact-form textarea:focus::placeholder {
+    color: transparent;
+}
 #contact-form input:focus span.required{
     transition: all .2s ease;
     color:#D4AF37;
