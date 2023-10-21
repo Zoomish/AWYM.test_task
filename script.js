@@ -62,7 +62,7 @@ Selectpos1.forEach(function(element, index) {
 window.addEventListener('load',slide_show_1);
 
 
-var imgd = ["scroll_down/1.png", "scroll_down/2.png", "scroll_down/3.png", "scroll_down/4.png", "scroll_down/5.png" ]; 
+var imgd = ["/scroll_down/1.png", "/scroll_down/2.png", "/scroll_down/3.png", "/scroll_down/4.png", "/scroll_down/5.png" ]; 
 var post = 0;
 var tmd = setInterval("slide_show_1()", 300);
 function slide_show_1() {
@@ -82,7 +82,7 @@ window.addEventListener('load',slide_show);
 
 
 
-var img = ["about_us/1.png", "about_us/2.png", "about_us/3.png", "about_us/4.png", "about_us/5.png" ]; 
+var img = ["/about_us/1.png", "/about_us/2.png", "/about_us/3.png", "/about_us/4.png", "/about_us/5.png" ]; 
 var pos = 0;
 var tm = setInterval("slide_show()", 1000);
 function slide_show() {
