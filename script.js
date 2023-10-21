@@ -2,7 +2,7 @@ window.onload = function () {
     right();
     wait_slider();
     document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
+    setTimeout(function () {
         document.body.classList.add('loaded');
         document.body.classList.remove('loaded_hiding');
     }, 100);
