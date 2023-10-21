@@ -7,7 +7,7 @@ document.addEventListener("load", function () {
     setTimeout(function (){
         document.body.classList.add('loaded');
         document.body.classList.remove('loaded_hiding');
-    }, 100);
+    }, 1000);
 })
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
