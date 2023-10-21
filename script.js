@@ -1,13 +1,13 @@
 document.body.classList.add('loaded_hiding');
 document.addEventListener("DOMContentLoaded", function () {
-    wait_slider()
+    wait_slider();
 })
 
 document.addEventListener("load", function () {
     setTimeout(function (){
         document.body.classList.add('loaded');
         document.body.classList.remove('loaded_hiding');
-    }, 5000);
+    }, 100);
 })
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
