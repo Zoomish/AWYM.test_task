@@ -793,6 +793,9 @@ img::-moz-selection {
 #about{
     background: linear-gradient(to top right, #0494B3 2%,rgb(37, 71, 91)40% ,rgb(28, 38, 41)80%);
 }
+.about_text{
+    margin-bottom: 0%;
+}
 .up{
     font-size: 70px;
 }
@@ -805,6 +808,15 @@ img::-moz-selection {
     top: 1%;
     left: 55%;
 
+}
+@media screen and (max-width:991.20px){
+    .vacancies{
+        top:120%;
+        left: 0;
+    }
+    .about_text{
+        margin-bottom: 120%;
+    }
 }
 .in_position{
     padding:2% 5% 0;
