@@ -812,7 +812,7 @@ img::-moz-selection {
 @media screen and (max-width:991.20px){
     .vacancies{
         top:120%;
-        left: -10%;
+        left: 0;
     }
     .about_text{
         margin-bottom: 120%;
