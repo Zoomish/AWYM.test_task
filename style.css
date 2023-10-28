@@ -704,15 +704,7 @@ img::-moz-selection {
 }
 #portfolio button.selected:hover{
     color: #909090;
-    font-family: "Questrial";
-    font-size: 24px;
-    font-weight: 400;
-    text-decoration: none;
-    border: 0;
     border-bottom: 1px#00000066 solid;
-    border-bottom-style: dashed;
-    background-color: rgba(28,28,28,0);
-    padding: 0 10%;
 }
 #portfolio button.active{
     font-family: "Questrial";
