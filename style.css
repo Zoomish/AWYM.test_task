@@ -743,6 +743,9 @@ img::-moz-selection {
     .portfolio-box{
         margin-left: 20%;
     }
+    body{
+        width:200%;
+    }
 }
 @media screen and (max-width:991.20px) and (min-width:587.20px){
     .portfolio-box{
