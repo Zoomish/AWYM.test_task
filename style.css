@@ -550,7 +550,7 @@ footer span.copyright {
     font-family:"Raleway";
     line-height: 25px;
 }
-@media screen and (max-width:1044px){
+@media (max-width:1044px){
     footer span.copyright {
         top:100px;
     }
@@ -739,7 +739,7 @@ img::-moz-selection {
     
 }
 
-@media screen and (max-width:587.20px){
+@media (max-width:587.20px){
     .portfolio-box{
         margin-left: 20%;
     }
@@ -747,12 +747,12 @@ img::-moz-selection {
         width:200%;
     }
 }
-@media screen and (max-width:991.20px) and (min-width:587.20px){
+@media (max-width:991.20px) and (min-width:587.20px){
     .portfolio-box{
         margin-left: 10%;
     }
 }
-@media screen and (max-width:1199.20px) and (min-width:991.20px){
+@media (max-width:1199.20px) and (min-width:991.20px){
     .portfolio-box{
         margin-left: 5%;
     }
@@ -804,7 +804,7 @@ img::-moz-selection {
     left: 55%;
 
 }
-@media screen and (max-width:991.20px){
+@media (max-width:991.20px){
     .vacancies{
         top:120%;
         left: 0;
@@ -969,7 +969,7 @@ opacity: 1;
 background-color: #D9D9D9;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 .slide-content{
     margin: 0 10px;
 }
@@ -1117,7 +1117,7 @@ left: 4%;
 font-weight:bold;  
 color: #E5E6E7;      
 }
-@media only screen and (max-width: 580px) {
+@media (max-width: 580px) {
 #contact-form{
     left: 3%;
     margin-right: 3%;
